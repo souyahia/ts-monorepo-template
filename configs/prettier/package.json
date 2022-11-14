@@ -1,0 +1,11 @@
+{
+  "name": "@souyahia/prettier-config",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "author": "souyahia",
+  "main": "index.js",
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

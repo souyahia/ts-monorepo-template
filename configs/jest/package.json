@@ -1,0 +1,12 @@
+{
+  "name": "@souyahia/jest-config",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "author": "souyahia",
+  "main": "index.js",
+  "peerDependencies": {
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  }
+}

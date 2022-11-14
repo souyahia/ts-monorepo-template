@@ -1,0 +1,24 @@
+{
+  "name": "ts-monorepo-template",
+  "version": "4.0.0",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "author": "souyahia",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "configs/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -pt run build",
+    "clear": "rimraf node_modules && yarn cache clean && yarn install",
+    "postinstall": "yarn run build",
+    "test": "yarn workspaces foreach -pt run test",
+    "test:coverage": "yarn workspaces foreach -pt run test:coverage",
+    "lint": "yarn workspaces foreach -pt run lint",
+    "lint:fix": "yarn workspaces foreach -pt run lint:fix"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

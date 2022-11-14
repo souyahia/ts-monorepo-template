@@ -1,0 +1,10 @@
+{
+  "name": "@souyahia/typescript-config",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.2.4",
+  "private": true,
+  "author": "souyahia",
+  "peerDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
